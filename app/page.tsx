@@ -12,42 +12,42 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const works = [
   {
-    title: "Campaña Oreo – Celiacos",
+    title: "Aprecio el tiempo - Mercado Pago",
     slug: "oreo-celiacos",
-    thumbnail: "/hero1.jpg",
+    thumbnail: "/mp.jpg",
   },
   {
-    title: "Escuela de Danza – Spot",
+    title: "Campaña Oreo – Celiacos",
     slug: "danza-spot",
-    thumbnail: "/hero2.jpg",
+    thumbnail: "/oreo.jpg",
   },
   {
-    title: "Campaña Automotriz",
-    slug: "auto-camp",
-    thumbnail: "/hero3.jpg",
+    title: "Maniobra Aprobada - Transito",
+    slug: "maniobra-aprobada",
+    thumbnail: "/transito.png",
   },
   {
-    title: "Festival Electrónico",
+    title: "Ultra Festival – Zara",
     slug: "festival",
-    thumbnail: "/hero1.jpg",
+    thumbnail: "/zara.png",
   },
   {
     title: "Roma – Editorial",
     slug: "roma",
-    thumbnail: "/hero2.jpg",
+    thumbnail: "/reinounido.png",
   },
   {
-    title: "Escuela – Comercial",
-    slug: "school",
+    title: "Pedido Disfrazado – Mercado Libre",
+    slug: "meli",
     thumbnail: "/hero3.jpg",
   },
   {
-    title: "Campaña Deportiva",
+    title: "Cuanas Destinadas – Deporte",
     slug: "deporte",
-    thumbnail: "/hero1.jpg",
+    thumbnail: "/huracan.jpg",
   },
   {
-    title: "Arquitectura – Lifestyle",
+    title: "Inspirar es Talento",
     slug: "arquitectura",
     thumbnail: "/hero2.jpg",
   },
@@ -333,7 +333,7 @@ export default function Home() {
         className="relative py-32 flex items-center justify-center"
       >
         <Image
-          src="/cta.jpg"
+          src="/hero2.jpg"
           alt="CTA Background"
           fill
           className="object-cover opacity-70"
