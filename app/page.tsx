@@ -39,7 +39,7 @@ const works = [
   {
     title: "Pedido Disfrazado – Mercado Libre",
     slug: "meli",
-    thumbnail: "/hero3.jpg",
+    thumbnail: "/meli.jpg",
   },
   {
     title: "Cuanas Destinadas – Deporte",
@@ -49,7 +49,7 @@ const works = [
   {
     title: "Inspirar es Talento",
     slug: "arquitectura",
-    thumbnail: "/hero2.jpg",
+    thumbnail: "/oreo.jpg",
   },
 ];
 
