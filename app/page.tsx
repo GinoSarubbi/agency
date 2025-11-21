@@ -237,53 +237,49 @@ export default function Home() {
           ))}
         </div>
       </section>
-
 {/* NOSOTRAS */}
-<section id="about-us" className=" bg-gray-900">
-  {/* TÍTULO CENTRADO */}
+<section id="about-us" className="bg-gray-900">
+  {/* TÍTULO */}
   <div className="max-w-5xl mx-auto text-center text-white pt-24 pb-12 px-6">
     <p className="text-xs md:text-sm tracking-[0.3em] text-blue-500 uppercase">
       ABOUT US
     </p>
-    <h2 className="mt-3 text-4xl md:text-4xl font-extrabold">
-      NOSOTRAS
-    </h2>
+    <h2 className="mt-3 text-4xl font-extrabold">NOSOTRAS</h2>
   </div>
 
-  {/* CONTENIDO EN COLUMNAS */}
-  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+  {/* CONTENIDO */}
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 px-6 items-center">
 
-    {/* TEXTO IZQUIERDA */}
-    <div className="leading-relaxed">
+    {/* TEXTO */}
+    <div className="leading-relaxed text-center md:text-left">
       <p className="text-xl md:text-2xl text-white">
-        Somos Florencia y Giuliana, juntas formamos <span className="font-bold text-gray-900 py-1 px-2 py-1 rounded-md bg-white">FLORIANA</span>.
+        Somos Florencia y Giuliana, juntas formamos{" "}
+        <span className="font-bold text-gray-900 px-2 rounded-md bg-white">
+          FLORIANA
+        </span>.
         Amamos las ideas que emocionan, los detalles que nadie ve y las marcas
         que se animan a hacer algo distinto.
       </p>
 
       <p className="mt-6 text-xl md:text-2xl text-white">
-        Venimos del mundo de la creatividad, el diseño y la publicidad.
-        Hoy nuestro objetivo es construir marcas y campañas que se sientan
-        humanas, honestas y con un tono propio.
+        Venimos del mundo de la creatividad, el diseño y la publicidad. Hoy
+        nuestro objetivo es construir marcas y campañas que se sientan humanas,
+        honestas y con un tono propio.
       </p>
     </div>
 
-    {/* FOTO DERECHA (GRANDE SIN CORTAR) */}
-    <div className="relative w-full h-[850px] md:h-[650px] rounded-3xl overflow-visible">
-      <div className="relative w-full h-full ">
-        <Image
-          src="/nosotras.png"
-          alt="Flor y Giuli"
-          fill
-          className="object-contain"   // <--- NO CORTA LA FOTO
-        />
-      </div>
+    {/* FOTO RESPONSIVE */}
+    <div className="relative w-full h-[400px] md:h-[650px]">
+      <Image
+        src="/nosotras.png"
+        alt="Flor y Giuli"
+        fill
+        className="object-contain"
+      />
     </div>
 
   </div>
 </section>
-
-
 
 
 
