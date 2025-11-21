@@ -59,7 +59,7 @@ const works = [
 const slides = [
   {
     id: 0,
-    image: "/hero1.jpg",
+    image: "/oreo.jpg",
     badge: "CREATIVE PERFORMANCE AGENCY",
     title: "Hacemos que tu marca se mueva.",
     subtitle:
@@ -67,7 +67,7 @@ const slides = [
   },
   {
     id: 1,
-    image: "/hero2.jpg",
+    image: "/mp.jpg",
     badge: "FULL FUNNEL MARKETING",
     title: "Del primer impacto a la venta.",
     subtitle:
@@ -75,7 +75,7 @@ const slides = [
   },
   {
     id: 2,
-    image: "/hero3.jpg",
+    image: "/transito.png",
     badge: "BRANDING · CONTENIDO · PERFORMANCE",
     title: "Tu marca con look & resultados premium.",
     subtitle:
