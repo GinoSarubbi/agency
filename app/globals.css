@@ -1,0 +1,32 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo de bullets para que se vean como los tuyos */
+.swiper-pagination-bullet {
+  @apply bg-white/40;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-white w-4 rounded-full;
+}
+
+/* Flechas blancas */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  @apply bg-black text-gray-900;
+}
