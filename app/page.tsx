@@ -333,7 +333,7 @@ export default function Home() {
         className="relative py-32 flex items-center justify-center"
       >
         <Image
-          src="/hero2.jpg"
+          src="/zara.png"
           alt="CTA Background"
           fill
           className="object-cover opacity-70"
